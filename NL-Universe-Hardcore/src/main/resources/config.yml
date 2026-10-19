@@ -1,0 +1,5 @@
+smp-world: smp
+hub-world: hub
+cooldown-hours: 24
+# Teleport blocked players to the configured hub world's spawn.
+# Vanilla death drops, inventory and builds remain unchanged.

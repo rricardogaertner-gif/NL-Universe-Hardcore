@@ -1,0 +1,14 @@
+name: NLUniverseHardcore
+version: 1.0.0
+main: nl.universe.hardcore.NLUniverseHardcore
+api-version: '1.21'
+author: NL-Universe
+description: SMP-only death cooldown with access to other worlds
+commands:
+  nlhardcore:
+    description: View or manage SMP death cooldowns
+    usage: /nlhardcore [status [player]|reset <player>|set <player> <hours>|reload]
+permissions:
+  nluniversehardcore.admin:
+    description: Manage cooldowns
+    default: op
